@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(7, 7, 53);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 251, 1);
+}
+
+.loginFrame{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginFrame input{
+  padding: 7px;
+}
+
+.loginFrame button{
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  box-shadow:1px 1px 1px 1px #888888;
+  color: rgb(7, 7, 53);
+}
+
+.loginFrame button:hover{
+  background-color: rgb(7, 7, 53);
+  color: white;
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.login{
+  margin-top: 5rem;
+}
+
+p{
+  margin-top: 5rem;
+}
